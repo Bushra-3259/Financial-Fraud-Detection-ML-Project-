@@ -15,25 +15,25 @@ An end-to-end Machine Learning and AI pipeline engineered to identify financial 
 
 ### 1. Risk Score Distribution & Security Tiering
 Instead of making rigid, absolute binary assumptions, the system isolates high-density fraud zones and creates a frictionless "MFA Required" middle tier.
-![Risk Score Distribution](./img5.png)
+![Risk Score Distribution](./assets/img5.png)
 
 ### 2. Finding the Optimal Security Threshold
 Evaluates model precision and recall trade-offs across different probability thresholds to identify where the operational security cutoffs should live.
-![Operational Threshold Optimization](./img9.png)
+![Operational Threshold Optimization](./assets/img9.png)
 
 ### 3. Precision-Recall & ROC Performance
 The pipeline achieves high structural stability in heavily skewed data distributions, establishing a robust reliability score.
-![Reliability Curve](./img7.png) 
+![Reliability Curve](./assets/img7.png) 
 
-![ROC-AUC Curve](./img8.png)
+![ROC-AUC Curve](./assets/img8.png)
 
 ### 4. Machine Learning Feature Importances
 A clean evaluation tracking which transactional markers (such as combined risk vectors, transaction amounts, and IP risk metrics) drive the underlying security logic.
-![Feature Importances](./img4.png)
+![Feature Importances](./assets/img4.png)
 
 ### 5. Model Generalization (Learning Curves)
 Tracks model training vs. validation F1-scores across shifting sample sizes to verify steady optimization without overfitting.
-![Learning Curves](./img3.png)
+![Learning Curves](./assets/img3.png)
 
 ---
 
@@ -42,7 +42,7 @@ Because this project utilizes live UI elements (`ipywidgets`), use the **Open in
 
 Below is a live validation snapshot where a transaction memo displaying manipulative intent triggers a **Multi-Modal Step-Up Override** even though the numerical engine initially outputted a low hazard score:
 
-![Interactive UI Dashboard](./img11.png)
+![Interactive UI Dashboard](./assets/img11.png)
 
 ---
 
